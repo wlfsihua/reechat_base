@@ -6,11 +6,84 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8D00EEAB226D74A0008F5AA0 /* event_loop.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8D00EEA9226D74A0008F5AA0 /* event_loop.hpp */; };
+		8D00EEAC226D74A0008F5AA0 /* event_loop.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8D00EEA9226D74A0008F5AA0 /* event_loop.hpp */; };
+		8D00EEAD226D74A0008F5AA0 /* event_loop.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8D00EEA9226D74A0008F5AA0 /* event_loop.hpp */; };
+		8D00EEAE226D74A0008F5AA0 /* event_loop.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8D00EEA9226D74A0008F5AA0 /* event_loop.hpp */; };
+		8D00EEAF226D74A0008F5AA0 /* event_loop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D00EEAA226D74A0008F5AA0 /* event_loop.cpp */; };
+		8D00EEB0226D74A0008F5AA0 /* event_loop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D00EEAA226D74A0008F5AA0 /* event_loop.cpp */; };
+		8D00EEB1226D74A0008F5AA0 /* event_loop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D00EEAA226D74A0008F5AA0 /* event_loop.cpp */; };
+		8D00EEB2226D74A0008F5AA0 /* event_loop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D00EEAA226D74A0008F5AA0 /* event_loop.cpp */; };
+		8D00EEB5226D74BF008F5AA0 /* base_status.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D00EEB3226D74BF008F5AA0 /* base_status.cpp */; };
+		8D00EEB6226D74BF008F5AA0 /* base_status.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D00EEB3226D74BF008F5AA0 /* base_status.cpp */; };
+		8D00EEB7226D74BF008F5AA0 /* base_status.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D00EEB3226D74BF008F5AA0 /* base_status.cpp */; };
+		8D00EEB8226D74BF008F5AA0 /* base_status.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D00EEB3226D74BF008F5AA0 /* base_status.cpp */; };
+		8D00EEB9226D74BF008F5AA0 /* base_status.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8D00EEB4226D74BF008F5AA0 /* base_status.hpp */; };
+		8D00EEBA226D74BF008F5AA0 /* base_status.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8D00EEB4226D74BF008F5AA0 /* base_status.hpp */; };
+		8D00EEBB226D74BF008F5AA0 /* base_status.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8D00EEB4226D74BF008F5AA0 /* base_status.hpp */; };
+		8D00EEBC226D74BF008F5AA0 /* base_status.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8D00EEB4226D74BF008F5AA0 /* base_status.hpp */; };
+		8D00EEBF226D74D8008F5AA0 /* event_watcher.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8D00EEBD226D74D8008F5AA0 /* event_watcher.hpp */; };
+		8D00EEC0226D74D8008F5AA0 /* event_watcher.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8D00EEBD226D74D8008F5AA0 /* event_watcher.hpp */; };
+		8D00EEC1226D74D8008F5AA0 /* event_watcher.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8D00EEBD226D74D8008F5AA0 /* event_watcher.hpp */; };
+		8D00EEC2226D74D8008F5AA0 /* event_watcher.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8D00EEBD226D74D8008F5AA0 /* event_watcher.hpp */; };
+		8D00EEC3226D74D8008F5AA0 /* event_watcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D00EEBE226D74D8008F5AA0 /* event_watcher.cpp */; };
+		8D00EEC4226D74D8008F5AA0 /* event_watcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D00EEBE226D74D8008F5AA0 /* event_watcher.cpp */; };
+		8D00EEC5226D74D8008F5AA0 /* event_watcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D00EEBE226D74D8008F5AA0 /* event_watcher.cpp */; };
+		8D00EEC6226D74D8008F5AA0 /* event_watcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D00EEBE226D74D8008F5AA0 /* event_watcher.cpp */; };
+		8D00EECD226D7527008F5AA0 /* singleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D00EECC226D7527008F5AA0 /* singleton.h */; };
+		8D00EECE226D7527008F5AA0 /* singleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D00EECC226D7527008F5AA0 /* singleton.h */; };
+		8D00EECF226D7527008F5AA0 /* singleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D00EECC226D7527008F5AA0 /* singleton.h */; };
+		8D00EED0226D7527008F5AA0 /* singleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D00EECC226D7527008F5AA0 /* singleton.h */; };
+		8DCE05DF226F4C9100A14179 /* rtc_log_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE05DD226F4C9100A14179 /* rtc_log_wrapper.cpp */; };
+		8DCE05E0226F4C9100A14179 /* rtc_log_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE05DD226F4C9100A14179 /* rtc_log_wrapper.cpp */; };
+		8DCE05E1226F4C9100A14179 /* rtc_log_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE05DD226F4C9100A14179 /* rtc_log_wrapper.cpp */; };
+		8DCE05E2226F4C9100A14179 /* rtc_log_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE05DD226F4C9100A14179 /* rtc_log_wrapper.cpp */; };
+		8DCE05E3226F4C9100A14179 /* rtc_log_wrapper.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE05DE226F4C9100A14179 /* rtc_log_wrapper.hpp */; };
+		8DCE05E4226F4C9100A14179 /* rtc_log_wrapper.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE05DE226F4C9100A14179 /* rtc_log_wrapper.hpp */; };
+		8DCE05E5226F4C9100A14179 /* rtc_log_wrapper.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE05DE226F4C9100A14179 /* rtc_log_wrapper.hpp */; };
+		8DCE05E6226F4C9100A14179 /* rtc_log_wrapper.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE05DE226F4C9100A14179 /* rtc_log_wrapper.hpp */; };
+		8DCE05E9226F4D4B00A14179 /* tcp_socket_wrapper.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE05E7226F4D4B00A14179 /* tcp_socket_wrapper.hpp */; };
+		8DCE05EA226F4D4B00A14179 /* tcp_socket_wrapper.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE05E7226F4D4B00A14179 /* tcp_socket_wrapper.hpp */; };
+		8DCE05EB226F4D4B00A14179 /* tcp_socket_wrapper.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE05E7226F4D4B00A14179 /* tcp_socket_wrapper.hpp */; };
+		8DCE05EC226F4D4B00A14179 /* tcp_socket_wrapper.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE05E7226F4D4B00A14179 /* tcp_socket_wrapper.hpp */; };
+		8DCE05ED226F4D4B00A14179 /* tcp_socket_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE05E8226F4D4B00A14179 /* tcp_socket_wrapper.cpp */; };
+		8DCE05EE226F4D4B00A14179 /* tcp_socket_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE05E8226F4D4B00A14179 /* tcp_socket_wrapper.cpp */; };
+		8DCE05EF226F4D4B00A14179 /* tcp_socket_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE05E8226F4D4B00A14179 /* tcp_socket_wrapper.cpp */; };
+		8DCE05F0226F4D4B00A14179 /* tcp_socket_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE05E8226F4D4B00A14179 /* tcp_socket_wrapper.cpp */; };
+		8DCE05F3226F4EE900A14179 /* socket_buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE05F1226F4EE900A14179 /* socket_buffer.cpp */; };
+		8DCE05F4226F4EE900A14179 /* socket_buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE05F1226F4EE900A14179 /* socket_buffer.cpp */; };
+		8DCE05F5226F4EE900A14179 /* socket_buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE05F1226F4EE900A14179 /* socket_buffer.cpp */; };
+		8DCE05F6226F4EE900A14179 /* socket_buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE05F1226F4EE900A14179 /* socket_buffer.cpp */; };
+		8DCE05F7226F4EE900A14179 /* socket_buffer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE05F2226F4EE900A14179 /* socket_buffer.hpp */; };
+		8DCE05F8226F4EE900A14179 /* socket_buffer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE05F2226F4EE900A14179 /* socket_buffer.hpp */; };
+		8DCE05F9226F4EE900A14179 /* socket_buffer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE05F2226F4EE900A14179 /* socket_buffer.hpp */; };
+		8DCE05FA226F4EE900A14179 /* socket_buffer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE05F2226F4EE900A14179 /* socket_buffer.hpp */; };
+		8DCE05FC226F4F9000A14179 /* macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE05FB226F4F9000A14179 /* macros.h */; };
+		8DCE05FD226F4F9000A14179 /* macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE05FB226F4F9000A14179 /* macros.h */; };
+		8DCE05FE226F4F9000A14179 /* macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE05FB226F4F9000A14179 /* macros.h */; };
+		8DCE05FF226F4F9000A14179 /* macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE05FB226F4F9000A14179 /* macros.h */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		4303ABE320EB197E00F6A73D /* librtchat_base_ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = librtchat_base_ios.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		436167C3213E38DE005BF2C1 /* librtchat_base_osx_nosql.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = librtchat_base_osx_nosql.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		43700F63209B1B3F0011F574 /* librtchat_base_osx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = librtchat_base_osx.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		43C8ED032110911500844F77 /* librtchat_base_ios_nosql.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = librtchat_base_ios_nosql.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4303ABE320EB197E00F6A73D /* libreechat_base_ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libreechat_base_ios.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		436167C3213E38DE005BF2C1 /* libreechat_base_osx_nosql.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libreechat_base_osx_nosql.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		43700F63209B1B3F0011F574 /* libreechat_base_osx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libreechat_base_osx.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C8ED032110911500844F77 /* libreechat_base_ios_nosql.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libreechat_base_ios_nosql.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D00EEA9226D74A0008F5AA0 /* event_loop.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = event_loop.hpp; sourceTree = "<group>"; };
+		8D00EEAA226D74A0008F5AA0 /* event_loop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = event_loop.cpp; sourceTree = "<group>"; };
+		8D00EEB3226D74BF008F5AA0 /* base_status.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = base_status.cpp; sourceTree = "<group>"; };
+		8D00EEB4226D74BF008F5AA0 /* base_status.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = base_status.hpp; sourceTree = "<group>"; };
+		8D00EEBD226D74D8008F5AA0 /* event_watcher.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = event_watcher.hpp; sourceTree = "<group>"; };
+		8D00EEBE226D74D8008F5AA0 /* event_watcher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = event_watcher.cpp; sourceTree = "<group>"; };
+		8D00EECC226D7527008F5AA0 /* singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = singleton.h; sourceTree = "<group>"; };
+		8DCE05DD226F4C9100A14179 /* rtc_log_wrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtc_log_wrapper.cpp; sourceTree = "<group>"; };
+		8DCE05DE226F4C9100A14179 /* rtc_log_wrapper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rtc_log_wrapper.hpp; sourceTree = "<group>"; };
+		8DCE05E7226F4D4B00A14179 /* tcp_socket_wrapper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tcp_socket_wrapper.hpp; sourceTree = "<group>"; };
+		8DCE05E8226F4D4B00A14179 /* tcp_socket_wrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tcp_socket_wrapper.cpp; sourceTree = "<group>"; };
+		8DCE05F1226F4EE900A14179 /* socket_buffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = socket_buffer.cpp; sourceTree = "<group>"; };
+		8DCE05F2226F4EE900A14179 /* socket_buffer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = socket_buffer.hpp; sourceTree = "<group>"; };
+		8DCE05FB226F4F9000A14179 /* macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +121,7 @@
 		43700F5A209B1B3F0011F574 = {
 			isa = PBXGroup;
 			children = (
+				8D00EEA8226D74A0008F5AA0 /* src */,
 				43700F64209B1B3F0011F574 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,12 +129,33 @@
 		43700F64209B1B3F0011F574 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				43700F63209B1B3F0011F574 /* librtchat_base_osx.a */,
-				4303ABE320EB197E00F6A73D /* librtchat_base_ios.a */,
-				43C8ED032110911500844F77 /* librtchat_base_ios_nosql.a */,
-				436167C3213E38DE005BF2C1 /* librtchat_base_osx_nosql.a */,
+				43700F63209B1B3F0011F574 /* libreechat_base_osx.a */,
+				4303ABE320EB197E00F6A73D /* libreechat_base_ios.a */,
+				43C8ED032110911500844F77 /* libreechat_base_ios_nosql.a */,
+				436167C3213E38DE005BF2C1 /* libreechat_base_osx_nosql.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8D00EEA8226D74A0008F5AA0 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8D00EEB3226D74BF008F5AA0 /* base_status.cpp */,
+				8D00EEB4226D74BF008F5AA0 /* base_status.hpp */,
+				8D00EEAA226D74A0008F5AA0 /* event_loop.cpp */,
+				8D00EEA9226D74A0008F5AA0 /* event_loop.hpp */,
+				8D00EEBE226D74D8008F5AA0 /* event_watcher.cpp */,
+				8D00EEBD226D74D8008F5AA0 /* event_watcher.hpp */,
+				8DCE05DD226F4C9100A14179 /* rtc_log_wrapper.cpp */,
+				8DCE05DE226F4C9100A14179 /* rtc_log_wrapper.hpp */,
+				8DCE05F1226F4EE900A14179 /* socket_buffer.cpp */,
+				8DCE05F2226F4EE900A14179 /* socket_buffer.hpp */,
+				8DCE05FB226F4F9000A14179 /* macros.h */,
+				8D00EECC226D7527008F5AA0 /* singleton.h */,
+				8DCE05E8226F4D4B00A14179 /* tcp_socket_wrapper.cpp */,
+				8DCE05E7226F4D4B00A14179 /* tcp_socket_wrapper.hpp */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,6 +165,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DCE05E4226F4C9100A14179 /* rtc_log_wrapper.hpp in Headers */,
+				8D00EEAC226D74A0008F5AA0 /* event_loop.hpp in Headers */,
+				8D00EEBA226D74BF008F5AA0 /* base_status.hpp in Headers */,
+				8DCE05FD226F4F9000A14179 /* macros.h in Headers */,
+				8D00EECE226D7527008F5AA0 /* singleton.h in Headers */,
+				8DCE05F8226F4EE900A14179 /* socket_buffer.hpp in Headers */,
+				8D00EEC0226D74D8008F5AA0 /* event_watcher.hpp in Headers */,
+				8DCE05EA226F4D4B00A14179 /* tcp_socket_wrapper.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +180,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DCE05E6226F4C9100A14179 /* rtc_log_wrapper.hpp in Headers */,
+				8D00EEAE226D74A0008F5AA0 /* event_loop.hpp in Headers */,
+				8D00EEBC226D74BF008F5AA0 /* base_status.hpp in Headers */,
+				8DCE05FF226F4F9000A14179 /* macros.h in Headers */,
+				8D00EED0226D7527008F5AA0 /* singleton.h in Headers */,
+				8DCE05FA226F4EE900A14179 /* socket_buffer.hpp in Headers */,
+				8D00EEC2226D74D8008F5AA0 /* event_watcher.hpp in Headers */,
+				8DCE05EC226F4D4B00A14179 /* tcp_socket_wrapper.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +195,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DCE05E3226F4C9100A14179 /* rtc_log_wrapper.hpp in Headers */,
+				8D00EEAB226D74A0008F5AA0 /* event_loop.hpp in Headers */,
+				8D00EEB9226D74BF008F5AA0 /* base_status.hpp in Headers */,
+				8DCE05FC226F4F9000A14179 /* macros.h in Headers */,
+				8D00EECD226D7527008F5AA0 /* singleton.h in Headers */,
+				8DCE05F7226F4EE900A14179 /* socket_buffer.hpp in Headers */,
+				8D00EEBF226D74D8008F5AA0 /* event_watcher.hpp in Headers */,
+				8DCE05E9226F4D4B00A14179 /* tcp_socket_wrapper.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,15 +210,23 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DCE05E5226F4C9100A14179 /* rtc_log_wrapper.hpp in Headers */,
+				8D00EEAD226D74A0008F5AA0 /* event_loop.hpp in Headers */,
+				8D00EEBB226D74BF008F5AA0 /* base_status.hpp in Headers */,
+				8DCE05FE226F4F9000A14179 /* macros.h in Headers */,
+				8D00EECF226D7527008F5AA0 /* singleton.h in Headers */,
+				8DCE05F9226F4EE900A14179 /* socket_buffer.hpp in Headers */,
+				8D00EEC1226D74D8008F5AA0 /* event_watcher.hpp in Headers */,
+				8DCE05EB226F4D4B00A14179 /* tcp_socket_wrapper.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4303ABA320EB197E00F6A73D /* rtchat_base_ios */ = {
+		4303ABA320EB197E00F6A73D /* reechat_base_ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4303ABE020EB197E00F6A73D /* Build configuration list for PBXNativeTarget "rtchat_base_ios" */;
+			buildConfigurationList = 4303ABE020EB197E00F6A73D /* Build configuration list for PBXNativeTarget "reechat_base_ios" */;
 			buildPhases = (
 				4303ABA420EB197E00F6A73D /* Sources */,
 				4303ABBD20EB197E00F6A73D /* Frameworks */,
@@ -109,14 +236,14 @@
 			);
 			dependencies = (
 			);
-			name = rtchat_base_ios;
+			name = reechat_base_ios;
 			productName = rtchat_base;
-			productReference = 4303ABE320EB197E00F6A73D /* librtchat_base_ios.a */;
+			productReference = 4303ABE320EB197E00F6A73D /* libreechat_base_ios.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		43616781213E38DE005BF2C1 /* rtchat_base_osx_nosql */ = {
+		43616781213E38DE005BF2C1 /* reechat_base_osx_nosql */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 436167C0213E38DE005BF2C1 /* Build configuration list for PBXNativeTarget "rtchat_base_osx_nosql" */;
+			buildConfigurationList = 436167C0213E38DE005BF2C1 /* Build configuration list for PBXNativeTarget "reechat_base_osx_nosql" */;
 			buildPhases = (
 				43616782213E38DE005BF2C1 /* Sources */,
 				436167A0213E38DE005BF2C1 /* Frameworks */,
@@ -126,14 +253,14 @@
 			);
 			dependencies = (
 			);
-			name = rtchat_base_osx_nosql;
+			name = reechat_base_osx_nosql;
 			productName = rtchat_base;
-			productReference = 436167C3213E38DE005BF2C1 /* librtchat_base_osx_nosql.a */;
+			productReference = 436167C3213E38DE005BF2C1 /* libreechat_base_osx_nosql.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		43700F62209B1B3F0011F574 /* rtchat_base_osx */ = {
+		43700F62209B1B3F0011F574 /* reechat_base_osx */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43700F67209B1B3F0011F574 /* Build configuration list for PBXNativeTarget "rtchat_base_osx" */;
+			buildConfigurationList = 43700F67209B1B3F0011F574 /* Build configuration list for PBXNativeTarget "reechat_base_osx" */;
 			buildPhases = (
 				43700F5F209B1B3F0011F574 /* Sources */,
 				43700F60209B1B3F0011F574 /* Frameworks */,
@@ -143,14 +270,14 @@
 			);
 			dependencies = (
 			);
-			name = rtchat_base_osx;
+			name = reechat_base_osx;
 			productName = rtchat_base;
-			productReference = 43700F63209B1B3F0011F574 /* librtchat_base_osx.a */;
+			productReference = 43700F63209B1B3F0011F574 /* libreechat_base_osx.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		43C8ECBD2110911500844F77 /* rtchat_base_ios_nosql */ = {
+		43C8ECBD2110911500844F77 /* reechat_base_ios_nosql */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43C8ED002110911500844F77 /* Build configuration list for PBXNativeTarget "rtchat_base_ios_nosql" */;
+			buildConfigurationList = 43C8ED002110911500844F77 /* Build configuration list for PBXNativeTarget "reechat_base_ios_nosql" */;
 			buildPhases = (
 				43C8ECBE2110911500844F77 /* Sources */,
 				43C8ECDE2110911500844F77 /* Frameworks */,
@@ -160,9 +287,9 @@
 			);
 			dependencies = (
 			);
-			name = rtchat_base_ios_nosql;
+			name = reechat_base_ios_nosql;
 			productName = rtchat_base;
-			productReference = 43C8ED032110911500844F77 /* librtchat_base_ios_nosql.a */;
+			productReference = 43C8ED032110911500844F77 /* libreechat_base_ios_nosql.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -171,7 +298,7 @@
 		43700F5B209B1B3F0011F574 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = ztgame;
 				TargetAttributes = {
 					4303ABA320EB197E00F6A73D = {
@@ -190,23 +317,23 @@
 					};
 				};
 			};
-			buildConfigurationList = 43700F5E209B1B3F0011F574 /* Build configuration list for PBXProject "rtchat_base" */;
+			buildConfigurationList = 43700F5E209B1B3F0011F574 /* Build configuration list for PBXProject "reechat_base" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
+				Base,
 			);
 			mainGroup = 43700F5A209B1B3F0011F574;
 			productRefGroup = 43700F64209B1B3F0011F574 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				43700F62209B1B3F0011F574 /* rtchat_base_osx */,
-				4303ABA320EB197E00F6A73D /* rtchat_base_ios */,
-				43C8ECBD2110911500844F77 /* rtchat_base_ios_nosql */,
-				43616781213E38DE005BF2C1 /* rtchat_base_osx_nosql */,
+				43700F62209B1B3F0011F574 /* reechat_base_osx */,
+				4303ABA320EB197E00F6A73D /* reechat_base_ios */,
+				43C8ECBD2110911500844F77 /* reechat_base_ios_nosql */,
+				43616781213E38DE005BF2C1 /* reechat_base_osx_nosql */,
 			);
 		};
 /* End PBXProject section */
@@ -216,6 +343,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D00EEB6226D74BF008F5AA0 /* base_status.cpp in Sources */,
+				8DCE05EE226F4D4B00A14179 /* tcp_socket_wrapper.cpp in Sources */,
+				8D00EEB0226D74A0008F5AA0 /* event_loop.cpp in Sources */,
+				8DCE05E0226F4C9100A14179 /* rtc_log_wrapper.cpp in Sources */,
+				8DCE05F4226F4EE900A14179 /* socket_buffer.cpp in Sources */,
+				8D00EEC4226D74D8008F5AA0 /* event_watcher.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +356,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D00EEB8226D74BF008F5AA0 /* base_status.cpp in Sources */,
+				8DCE05F0226F4D4B00A14179 /* tcp_socket_wrapper.cpp in Sources */,
+				8D00EEB2226D74A0008F5AA0 /* event_loop.cpp in Sources */,
+				8DCE05E2226F4C9100A14179 /* rtc_log_wrapper.cpp in Sources */,
+				8DCE05F6226F4EE900A14179 /* socket_buffer.cpp in Sources */,
+				8D00EEC6226D74D8008F5AA0 /* event_watcher.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +369,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D00EEB5226D74BF008F5AA0 /* base_status.cpp in Sources */,
+				8DCE05ED226F4D4B00A14179 /* tcp_socket_wrapper.cpp in Sources */,
+				8D00EEAF226D74A0008F5AA0 /* event_loop.cpp in Sources */,
+				8DCE05DF226F4C9100A14179 /* rtc_log_wrapper.cpp in Sources */,
+				8DCE05F3226F4EE900A14179 /* socket_buffer.cpp in Sources */,
+				8D00EEC3226D74D8008F5AA0 /* event_watcher.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +382,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D00EEB7226D74BF008F5AA0 /* base_status.cpp in Sources */,
+				8DCE05EF226F4D4B00A14179 /* tcp_socket_wrapper.cpp in Sources */,
+				8D00EEB1226D74A0008F5AA0 /* event_loop.cpp in Sources */,
+				8DCE05E1226F4C9100A14179 /* rtc_log_wrapper.cpp in Sources */,
+				8DCE05F5226F4EE900A14179 /* socket_buffer.cpp in Sources */,
+				8D00EEC5226D74D8008F5AA0 /* event_watcher.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,21 +504,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -401,21 +561,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -451,8 +620,8 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/../",
-					"$(PROJECT_DIR)/../third_party",
-					"$(PROJECT_DIR)/../third_party/libevent2/include",
+					"$(PROJECT_DIR)/src/third_party/libevent2/include",
+					"$(PROJECT_DIR)/src/third_party",
 					"$(PROJECT_DIR)/../third_party/websocketpp",
 					"$(PROJECT_DIR)/../third_party/asio-1.10.8/include",
 					"$(PROJECT_DIR)/../third_party/boringssl/src/include",
@@ -475,8 +644,8 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/../",
-					"$(PROJECT_DIR)/../third_party",
-					"$(PROJECT_DIR)/../third_party/libevent2/include",
+					"$(PROJECT_DIR)/src/third_party/libevent2/include",
+					"$(PROJECT_DIR)/src/third_party",
 					"$(PROJECT_DIR)/../third_party/websocketpp",
 					"$(PROJECT_DIR)/../third_party/asio-1.10.8/include",
 					"$(PROJECT_DIR)/../third_party/boringssl/src/include",
@@ -543,7 +712,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4303ABE020EB197E00F6A73D /* Build configuration list for PBXNativeTarget "rtchat_base_ios" */ = {
+		4303ABE020EB197E00F6A73D /* Build configuration list for PBXNativeTarget "reechat_base_ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4303ABE120EB197E00F6A73D /* Debug */,
@@ -552,7 +721,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		436167C0213E38DE005BF2C1 /* Build configuration list for PBXNativeTarget "rtchat_base_osx_nosql" */ = {
+		436167C0213E38DE005BF2C1 /* Build configuration list for PBXNativeTarget "reechat_base_osx_nosql" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				436167C1213E38DE005BF2C1 /* Debug */,
@@ -561,7 +730,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43700F5E209B1B3F0011F574 /* Build configuration list for PBXProject "rtchat_base" */ = {
+		43700F5E209B1B3F0011F574 /* Build configuration list for PBXProject "reechat_base" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43700F65209B1B3F0011F574 /* Debug */,
@@ -570,7 +739,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43700F67209B1B3F0011F574 /* Build configuration list for PBXNativeTarget "rtchat_base_osx" */ = {
+		43700F67209B1B3F0011F574 /* Build configuration list for PBXNativeTarget "reechat_base_osx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43700F68209B1B3F0011F574 /* Debug */,
@@ -579,7 +748,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43C8ED002110911500844F77 /* Build configuration list for PBXNativeTarget "rtchat_base_ios_nosql" */ = {
+		43C8ED002110911500844F77 /* Build configuration list for PBXNativeTarget "reechat_base_ios_nosql" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43C8ED012110911500844F77 /* Debug */,
