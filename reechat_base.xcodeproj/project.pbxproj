@@ -63,6 +63,18 @@
 		8DCE05FD226F4F9000A14179 /* macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE05FB226F4F9000A14179 /* macros.h */; };
 		8DCE05FE226F4F9000A14179 /* macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE05FB226F4F9000A14179 /* macros.h */; };
 		8DCE05FF226F4F9000A14179 /* macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE05FB226F4F9000A14179 /* macros.h */; };
+		8DCE06022270869E00A14179 /* tcp_server_task.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE06002270869E00A14179 /* tcp_server_task.hpp */; };
+		8DCE06032270869E00A14179 /* tcp_server_task.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE06002270869E00A14179 /* tcp_server_task.hpp */; };
+		8DCE06042270869E00A14179 /* tcp_server_task.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE06002270869E00A14179 /* tcp_server_task.hpp */; };
+		8DCE06052270869E00A14179 /* tcp_server_task.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE06002270869E00A14179 /* tcp_server_task.hpp */; };
+		8DCE06062270869E00A14179 /* tcp_server_task.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE06012270869E00A14179 /* tcp_server_task.cpp */; };
+		8DCE06072270869E00A14179 /* tcp_server_task.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE06012270869E00A14179 /* tcp_server_task.cpp */; };
+		8DCE06082270869E00A14179 /* tcp_server_task.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE06012270869E00A14179 /* tcp_server_task.cpp */; };
+		8DCE06092270869E00A14179 /* tcp_server_task.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE06012270869E00A14179 /* tcp_server_task.cpp */; };
+		8DCE060B2270871400A14179 /* string_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE060A2270871400A14179 /* string_helper.h */; };
+		8DCE060C2270871400A14179 /* string_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE060A2270871400A14179 /* string_helper.h */; };
+		8DCE060D2270871400A14179 /* string_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE060A2270871400A14179 /* string_helper.h */; };
+		8DCE060E2270871400A14179 /* string_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DCE060A2270871400A14179 /* string_helper.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +96,9 @@
 		8DCE05F1226F4EE900A14179 /* socket_buffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = socket_buffer.cpp; sourceTree = "<group>"; };
 		8DCE05F2226F4EE900A14179 /* socket_buffer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = socket_buffer.hpp; sourceTree = "<group>"; };
 		8DCE05FB226F4F9000A14179 /* macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macros.h; sourceTree = "<group>"; };
+		8DCE06002270869E00A14179 /* tcp_server_task.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tcp_server_task.hpp; sourceTree = "<group>"; };
+		8DCE06012270869E00A14179 /* tcp_server_task.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tcp_server_task.cpp; sourceTree = "<group>"; };
+		8DCE060A2270871400A14179 /* string_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = string_helper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,14 +161,17 @@
 				8D00EEA9226D74A0008F5AA0 /* event_loop.hpp */,
 				8D00EEBE226D74D8008F5AA0 /* event_watcher.cpp */,
 				8D00EEBD226D74D8008F5AA0 /* event_watcher.hpp */,
+				8DCE05FB226F4F9000A14179 /* macros.h */,
 				8DCE05DD226F4C9100A14179 /* rtc_log_wrapper.cpp */,
 				8DCE05DE226F4C9100A14179 /* rtc_log_wrapper.hpp */,
+				8D00EECC226D7527008F5AA0 /* singleton.h */,
 				8DCE05F1226F4EE900A14179 /* socket_buffer.cpp */,
 				8DCE05F2226F4EE900A14179 /* socket_buffer.hpp */,
-				8DCE05FB226F4F9000A14179 /* macros.h */,
-				8D00EECC226D7527008F5AA0 /* singleton.h */,
+				8DCE06012270869E00A14179 /* tcp_server_task.cpp */,
+				8DCE06002270869E00A14179 /* tcp_server_task.hpp */,
 				8DCE05E8226F4D4B00A14179 /* tcp_socket_wrapper.cpp */,
 				8DCE05E7226F4D4B00A14179 /* tcp_socket_wrapper.hpp */,
+				8DCE060A2270871400A14179 /* string_helper.h */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -167,6 +185,8 @@
 			files = (
 				8DCE05E4226F4C9100A14179 /* rtc_log_wrapper.hpp in Headers */,
 				8D00EEAC226D74A0008F5AA0 /* event_loop.hpp in Headers */,
+				8DCE06032270869E00A14179 /* tcp_server_task.hpp in Headers */,
+				8DCE060C2270871400A14179 /* string_helper.h in Headers */,
 				8D00EEBA226D74BF008F5AA0 /* base_status.hpp in Headers */,
 				8DCE05FD226F4F9000A14179 /* macros.h in Headers */,
 				8D00EECE226D7527008F5AA0 /* singleton.h in Headers */,
@@ -182,6 +202,8 @@
 			files = (
 				8DCE05E6226F4C9100A14179 /* rtc_log_wrapper.hpp in Headers */,
 				8D00EEAE226D74A0008F5AA0 /* event_loop.hpp in Headers */,
+				8DCE06052270869E00A14179 /* tcp_server_task.hpp in Headers */,
+				8DCE060E2270871400A14179 /* string_helper.h in Headers */,
 				8D00EEBC226D74BF008F5AA0 /* base_status.hpp in Headers */,
 				8DCE05FF226F4F9000A14179 /* macros.h in Headers */,
 				8D00EED0226D7527008F5AA0 /* singleton.h in Headers */,
@@ -197,6 +219,8 @@
 			files = (
 				8DCE05E3226F4C9100A14179 /* rtc_log_wrapper.hpp in Headers */,
 				8D00EEAB226D74A0008F5AA0 /* event_loop.hpp in Headers */,
+				8DCE06022270869E00A14179 /* tcp_server_task.hpp in Headers */,
+				8DCE060B2270871400A14179 /* string_helper.h in Headers */,
 				8D00EEB9226D74BF008F5AA0 /* base_status.hpp in Headers */,
 				8DCE05FC226F4F9000A14179 /* macros.h in Headers */,
 				8D00EECD226D7527008F5AA0 /* singleton.h in Headers */,
@@ -212,6 +236,8 @@
 			files = (
 				8DCE05E5226F4C9100A14179 /* rtc_log_wrapper.hpp in Headers */,
 				8D00EEAD226D74A0008F5AA0 /* event_loop.hpp in Headers */,
+				8DCE06042270869E00A14179 /* tcp_server_task.hpp in Headers */,
+				8DCE060D2270871400A14179 /* string_helper.h in Headers */,
 				8D00EEBB226D74BF008F5AA0 /* base_status.hpp in Headers */,
 				8DCE05FE226F4F9000A14179 /* macros.h in Headers */,
 				8D00EECF226D7527008F5AA0 /* singleton.h in Headers */,
@@ -347,6 +373,7 @@
 				8DCE05EE226F4D4B00A14179 /* tcp_socket_wrapper.cpp in Sources */,
 				8D00EEB0226D74A0008F5AA0 /* event_loop.cpp in Sources */,
 				8DCE05E0226F4C9100A14179 /* rtc_log_wrapper.cpp in Sources */,
+				8DCE06072270869E00A14179 /* tcp_server_task.cpp in Sources */,
 				8DCE05F4226F4EE900A14179 /* socket_buffer.cpp in Sources */,
 				8D00EEC4226D74D8008F5AA0 /* event_watcher.cpp in Sources */,
 			);
@@ -360,6 +387,7 @@
 				8DCE05F0226F4D4B00A14179 /* tcp_socket_wrapper.cpp in Sources */,
 				8D00EEB2226D74A0008F5AA0 /* event_loop.cpp in Sources */,
 				8DCE05E2226F4C9100A14179 /* rtc_log_wrapper.cpp in Sources */,
+				8DCE06092270869E00A14179 /* tcp_server_task.cpp in Sources */,
 				8DCE05F6226F4EE900A14179 /* socket_buffer.cpp in Sources */,
 				8D00EEC6226D74D8008F5AA0 /* event_watcher.cpp in Sources */,
 			);
@@ -373,6 +401,7 @@
 				8DCE05ED226F4D4B00A14179 /* tcp_socket_wrapper.cpp in Sources */,
 				8D00EEAF226D74A0008F5AA0 /* event_loop.cpp in Sources */,
 				8DCE05DF226F4C9100A14179 /* rtc_log_wrapper.cpp in Sources */,
+				8DCE06062270869E00A14179 /* tcp_server_task.cpp in Sources */,
 				8DCE05F3226F4EE900A14179 /* socket_buffer.cpp in Sources */,
 				8D00EEC3226D74D8008F5AA0 /* event_watcher.cpp in Sources */,
 			);
@@ -386,6 +415,7 @@
 				8DCE05EF226F4D4B00A14179 /* tcp_socket_wrapper.cpp in Sources */,
 				8D00EEB1226D74A0008F5AA0 /* event_loop.cpp in Sources */,
 				8DCE05E1226F4C9100A14179 /* rtc_log_wrapper.cpp in Sources */,
+				8DCE06082270869E00A14179 /* tcp_server_task.cpp in Sources */,
 				8DCE05F5226F4EE900A14179 /* socket_buffer.cpp in Sources */,
 				8D00EEC5226D74D8008F5AA0 /* event_watcher.cpp in Sources */,
 			);
