@@ -97,7 +97,6 @@
 		4386EE2120A559A7004370DB /* ContextUtils.java in Sources */ = {isa = PBXBuildFile; fileRef = 4386ECAF20A559A6004370DB /* ContextUtils.java */; };
 		4386EE2220A559A7004370DB /* ThreadUtils.java in Sources */ = {isa = PBXBuildFile; fileRef = 4386ECB120A559A6004370DB /* ThreadUtils.java */; };
 		4386EE2320A559A7004370DB /* Logging.java in Sources */ = {isa = PBXBuildFile; fileRef = 4386ECB220A559A6004370DB /* Logging.java */; };
-		4386EE2520A559A7004370DB /* json.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4386ECB420A559A6004370DB /* json.cc */; };
 		4386EE2620A559A7004370DB /* json.h in Headers */ = {isa = PBXBuildFile; fileRef = 4386ECB520A559A6004370DB /* json.h */; };
 		4386EE2720A559A7004370DB /* keep_ref_until_done.h in Headers */ = {isa = PBXBuildFile; fileRef = 4386ECB620A559A6004370DB /* keep_ref_until_done.h */; };
 		4386EE2820A559A7004370DB /* location.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4386ECB720A559A6004370DB /* location.cc */; };
@@ -265,7 +264,6 @@
 		4386EF5E20A58161004370DB /* thread_darwin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4386ED8520A559A7004370DB /* thread_darwin.mm */; };
 		43AD953320B3C49F00006997 /* stream.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4386ED6220A559A7004370DB /* stream.cc */; };
 		43AD953420B3C49F00006997 /* network.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4386ECE020A559A6004370DB /* network.cc */; };
-		43AD953520B3C49F00006997 /* json.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4386ECB420A559A6004370DB /* json.cc */; };
 		43AD953620B3C49F00006997 /* messagequeue.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4386ECD220A559A6004370DB /* messagequeue.cc */; };
 		43AD953720B3C49F00006997 /* sha1digest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4386ED3F20A559A6004370DB /* sha1digest.cc */; };
 		43AD953820B3C49F00006997 /* unixfilesystem.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4386ED9520A559A7004370DB /* unixfilesystem.cc */; };
@@ -1575,6 +1573,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 4386EC1B20A55940004370DB;
@@ -1595,7 +1594,6 @@
 			files = (
 				4386EED020A559A7004370DB /* stream.cc in Sources */,
 				4386EE5120A559A7004370DB /* network.cc in Sources */,
-				4386EE2520A559A7004370DB /* json.cc in Sources */,
 				4386EE4320A559A7004370DB /* messagequeue.cc in Sources */,
 				4386EEAE20A559A7004370DB /* sha1digest.cc in Sources */,
 				4386EF0320A559A7004370DB /* unixfilesystem.cc in Sources */,
@@ -1697,7 +1695,6 @@
 			files = (
 				43AD953320B3C49F00006997 /* stream.cc in Sources */,
 				43AD953420B3C49F00006997 /* network.cc in Sources */,
-				43AD953520B3C49F00006997 /* json.cc in Sources */,
 				43AD953620B3C49F00006997 /* messagequeue.cc in Sources */,
 				43AD953720B3C49F00006997 /* sha1digest.cc in Sources */,
 				43AD953820B3C49F00006997 /* unixfilesystem.cc in Sources */,
