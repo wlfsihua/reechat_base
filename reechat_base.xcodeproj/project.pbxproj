@@ -38,6 +38,19 @@
 		8D25452322733E5C006CABDF /* librtc_base_osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D25452022733E53006CABDF /* librtc_base_osx.a */; };
 		8D25453022733F08006CABDF /* libevent2_osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D25452B22733F03006CABDF /* libevent2_osx.a */; };
 		8D25453222733F11006CABDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D25453122733F11006CABDF /* Foundation.framework */; };
+		8D2545402274189C006CABDF /* tcp_client_task.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8D25453E2274189C006CABDF /* tcp_client_task.hpp */; };
+		8D2545412274189C006CABDF /* tcp_client_task.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8D25453E2274189C006CABDF /* tcp_client_task.hpp */; };
+		8D2545422274189C006CABDF /* tcp_client_task.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8D25453E2274189C006CABDF /* tcp_client_task.hpp */; };
+		8D2545432274189C006CABDF /* tcp_client_task.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8D25453E2274189C006CABDF /* tcp_client_task.hpp */; };
+		8D2545442274189C006CABDF /* tcp_client_task.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D25453F2274189C006CABDF /* tcp_client_task.cpp */; };
+		8D2545452274189C006CABDF /* tcp_client_task.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D25453F2274189C006CABDF /* tcp_client_task.cpp */; };
+		8D2545462274189C006CABDF /* tcp_client_task.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D25453F2274189C006CABDF /* tcp_client_task.cpp */; };
+		8D2545472274189C006CABDF /* tcp_client_task.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D25453F2274189C006CABDF /* tcp_client_task.cpp */; };
+		8D25455422741940006CABDF /* tcp_client_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D25454822741910006CABDF /* tcp_client_test.cpp */; };
+		8D25455922741B96006CABDF /* libreechat_base_osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43700F63209B1B3F0011F574 /* libreechat_base_osx.a */; };
+		8D25455A22741B99006CABDF /* libevent2_osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D25452B22733F03006CABDF /* libevent2_osx.a */; };
+		8D25455B22741B9E006CABDF /* librtc_base_osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D25452022733E53006CABDF /* librtc_base_osx.a */; };
+		8D25455C22741BA5006CABDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D25453122733F11006CABDF /* Foundation.framework */; };
 		8DCE05DF226F4C9100A14179 /* rtc_log_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE05DD226F4C9100A14179 /* rtc_log_wrapper.cpp */; };
 		8DCE05E0226F4C9100A14179 /* rtc_log_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE05DD226F4C9100A14179 /* rtc_log_wrapper.cpp */; };
 		8DCE05E1226F4C9100A14179 /* rtc_log_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE05DD226F4C9100A14179 /* rtc_log_wrapper.cpp */; };
@@ -122,6 +135,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8D25454B22741933006CABDF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8DCE06222270963200A14179 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -148,6 +170,11 @@
 		8D25451A22733E53006CABDF /* rtc_base.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = rtc_base.xcodeproj; path = src/third_party/webrtc/rtc_base.xcodeproj; sourceTree = "<group>"; };
 		8D25452522733F03006CABDF /* event2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = event2.xcodeproj; path = src/third_party/libevent2/projects/event2.xcodeproj; sourceTree = "<group>"; };
 		8D25453122733F11006CABDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8D254539227416D2006CABDF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8D25453E2274189C006CABDF /* tcp_client_task.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tcp_client_task.hpp; sourceTree = "<group>"; };
+		8D25453F2274189C006CABDF /* tcp_client_task.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tcp_client_task.cpp; sourceTree = "<group>"; };
+		8D25454822741910006CABDF /* tcp_client_test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tcp_client_test.cpp; sourceTree = "<group>"; };
+		8D25454D22741933006CABDF /* tcp_client_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tcp_client_test; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCE05DD226F4C9100A14179 /* rtc_log_wrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtc_log_wrapper.cpp; sourceTree = "<group>"; };
 		8DCE05DE226F4C9100A14179 /* rtc_log_wrapper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rtc_log_wrapper.hpp; sourceTree = "<group>"; };
 		8DCE05E7226F4D4B00A14179 /* tcp_socket_wrapper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tcp_socket_wrapper.hpp; sourceTree = "<group>"; };
@@ -192,6 +219,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8D25454A22741933006CABDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D25455C22741BA5006CABDF /* Foundation.framework in Frameworks */,
+				8D25455B22741B9E006CABDF /* librtc_base_osx.a in Frameworks */,
+				8D25455A22741B99006CABDF /* libevent2_osx.a in Frameworks */,
+				8D25455922741B96006CABDF /* libreechat_base_osx.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DCE06212270963200A14179 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,6 +247,7 @@
 		43700F5A209B1B3F0011F574 = {
 			isa = PBXGroup;
 			children = (
+				8D254539227416D2006CABDF /* README.md */,
 				8D25452522733F03006CABDF /* event2.xcodeproj */,
 				8D25451A22733E53006CABDF /* rtc_base.xcodeproj */,
 				8D00EEA8226D74A0008F5AA0 /* src */,
@@ -225,6 +264,7 @@
 				43C8ED032110911500844F77 /* libreechat_base_ios_nosql.a */,
 				436167C3213E38DE005BF2C1 /* libreechat_base_osx_nosql.a */,
 				8DCE06242270963200A14179 /* tcp_server_test */,
+				8D25454D22741933006CABDF /* tcp_client_test */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -248,6 +288,8 @@
 				8DCE05F2226F4EE900A14179 /* socket_buffer.hpp */,
 				8DCE06012270869E00A14179 /* tcp_server_task.cpp */,
 				8DCE06002270869E00A14179 /* tcp_server_task.hpp */,
+				8D25453F2274189C006CABDF /* tcp_client_task.cpp */,
+				8D25453E2274189C006CABDF /* tcp_client_task.hpp */,
 				8DCE05E8226F4D4B00A14179 /* tcp_socket_wrapper.cpp */,
 				8DCE05E7226F4D4B00A14179 /* tcp_socket_wrapper.hpp */,
 				8DCE060A2270871400A14179 /* string_helper.h */,
@@ -276,6 +318,7 @@
 		8DCE0610227090B700A14179 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				8D25454822741910006CABDF /* tcp_client_test.cpp */,
 				8DCE0611227090E400A14179 /* tcp_server_test.cpp */,
 			);
 			path = test;
@@ -300,6 +343,7 @@
 				8DCE05E4226F4C9100A14179 /* rtc_log_wrapper.hpp in Headers */,
 				8D00EEAC226D74A0008F5AA0 /* event_loop.hpp in Headers */,
 				8DCE06032270869E00A14179 /* tcp_server_task.hpp in Headers */,
+				8D2545412274189C006CABDF /* tcp_client_task.hpp in Headers */,
 				8DCE060C2270871400A14179 /* string_helper.h in Headers */,
 				8D00EEBA226D74BF008F5AA0 /* base_status.hpp in Headers */,
 				8DCE05FD226F4F9000A14179 /* macros.h in Headers */,
@@ -318,6 +362,7 @@
 				8DCE05E6226F4C9100A14179 /* rtc_log_wrapper.hpp in Headers */,
 				8D00EEAE226D74A0008F5AA0 /* event_loop.hpp in Headers */,
 				8DCE06052270869E00A14179 /* tcp_server_task.hpp in Headers */,
+				8D2545432274189C006CABDF /* tcp_client_task.hpp in Headers */,
 				8DCE060E2270871400A14179 /* string_helper.h in Headers */,
 				8D00EEBC226D74BF008F5AA0 /* base_status.hpp in Headers */,
 				8DCE05FF226F4F9000A14179 /* macros.h in Headers */,
@@ -336,6 +381,7 @@
 				8DCE05E3226F4C9100A14179 /* rtc_log_wrapper.hpp in Headers */,
 				8D00EEAB226D74A0008F5AA0 /* event_loop.hpp in Headers */,
 				8DCE06022270869E00A14179 /* tcp_server_task.hpp in Headers */,
+				8D2545402274189C006CABDF /* tcp_client_task.hpp in Headers */,
 				8DCE060B2270871400A14179 /* string_helper.h in Headers */,
 				8D00EEB9226D74BF008F5AA0 /* base_status.hpp in Headers */,
 				8DCE05FC226F4F9000A14179 /* macros.h in Headers */,
@@ -354,6 +400,7 @@
 				8DCE05E5226F4C9100A14179 /* rtc_log_wrapper.hpp in Headers */,
 				8D00EEAD226D74A0008F5AA0 /* event_loop.hpp in Headers */,
 				8DCE06042270869E00A14179 /* tcp_server_task.hpp in Headers */,
+				8D2545422274189C006CABDF /* tcp_client_task.hpp in Headers */,
 				8DCE060D2270871400A14179 /* string_helper.h in Headers */,
 				8D00EEBB226D74BF008F5AA0 /* base_status.hpp in Headers */,
 				8DCE05FE226F4F9000A14179 /* macros.h in Headers */,
@@ -435,6 +482,23 @@
 			productReference = 43C8ED032110911500844F77 /* libreechat_base_ios_nosql.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		8D25454C22741933006CABDF /* tcp_client_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D25455122741933006CABDF /* Build configuration list for PBXNativeTarget "tcp_client_test" */;
+			buildPhases = (
+				8D25454922741933006CABDF /* Sources */,
+				8D25454A22741933006CABDF /* Frameworks */,
+				8D25454B22741933006CABDF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tcp_client_test;
+			productName = tcp_client_test;
+			productReference = 8D25454D22741933006CABDF /* tcp_client_test */;
+			productType = "com.apple.product-type.tool";
+		};
 		8DCE06232270963200A14179 /* tcp_server_test */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DCE06282270963300A14179 /* Build configuration list for PBXNativeTarget "tcp_server_test" */;
@@ -475,6 +539,10 @@
 					43C8ECBD2110911500844F77 = {
 						DevelopmentTeam = 5T4SKG3CUR;
 					};
+					8D25454C22741933006CABDF = {
+						CreatedOnToolsVersion = 10.2.1;
+						ProvisioningStyle = Automatic;
+					};
 					8DCE06232270963200A14179 = {
 						CreatedOnToolsVersion = 10.2.1;
 						ProvisioningStyle = Automatic;
@@ -509,6 +577,7 @@
 				43C8ECBD2110911500844F77 /* reechat_base_ios_nosql */,
 				43616781213E38DE005BF2C1 /* reechat_base_osx_nosql */,
 				8DCE06232270963200A14179 /* tcp_server_test */,
+				8D25454C22741933006CABDF /* tcp_client_test */,
 			);
 		};
 /* End PBXProject section */
@@ -556,6 +625,7 @@
 				8DCE05E0226F4C9100A14179 /* rtc_log_wrapper.cpp in Sources */,
 				8DCE06072270869E00A14179 /* tcp_server_task.cpp in Sources */,
 				8DCE05F4226F4EE900A14179 /* socket_buffer.cpp in Sources */,
+				8D2545452274189C006CABDF /* tcp_client_task.cpp in Sources */,
 				8D00EEC4226D74D8008F5AA0 /* event_watcher.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -571,6 +641,7 @@
 				8DCE05E2226F4C9100A14179 /* rtc_log_wrapper.cpp in Sources */,
 				8DCE06092270869E00A14179 /* tcp_server_task.cpp in Sources */,
 				8DCE05F6226F4EE900A14179 /* socket_buffer.cpp in Sources */,
+				8D2545472274189C006CABDF /* tcp_client_task.cpp in Sources */,
 				8D00EEC6226D74D8008F5AA0 /* event_watcher.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -586,6 +657,7 @@
 				8DCE05DF226F4C9100A14179 /* rtc_log_wrapper.cpp in Sources */,
 				8DCE06062270869E00A14179 /* tcp_server_task.cpp in Sources */,
 				8DCE05F3226F4EE900A14179 /* socket_buffer.cpp in Sources */,
+				8D2545442274189C006CABDF /* tcp_client_task.cpp in Sources */,
 				8D00EEC3226D74D8008F5AA0 /* event_watcher.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -601,7 +673,16 @@
 				8DCE05E1226F4C9100A14179 /* rtc_log_wrapper.cpp in Sources */,
 				8DCE06082270869E00A14179 /* tcp_server_task.cpp in Sources */,
 				8DCE05F5226F4EE900A14179 /* socket_buffer.cpp in Sources */,
+				8D2545462274189C006CABDF /* tcp_client_task.cpp in Sources */,
 				8D00EEC5226D74D8008F5AA0 /* event_watcher.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D25454922741933006CABDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D25455422741940006CABDF /* tcp_client_test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -931,6 +1012,55 @@
 			};
 			name = Release;
 		};
+		8D25455222741933006CABDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					WEBRTC_POSIX,
+					WEBRTC_MAC,
+					ASIO_STANDALONE,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/src/third_party",
+					"$(PROJECT_DIR)/src/third_party/libevent2/include",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D25455322741933006CABDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					WEBRTC_POSIX,
+					WEBRTC_MAC,
+					ASIO_STANDALONE,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/src/third_party",
+					"$(PROJECT_DIR)/src/third_party/libevent2/include",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8DCE06292270963300A14179 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1024,6 +1154,15 @@
 			buildConfigurations = (
 				43C8ED012110911500844F77 /* Debug */,
 				43C8ED022110911500844F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D25455122741933006CABDF /* Build configuration list for PBXNativeTarget "tcp_client_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D25455222741933006CABDF /* Debug */,
+				8D25455322741933006CABDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

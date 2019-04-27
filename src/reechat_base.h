@@ -17,6 +17,7 @@
 #include "rtc_log_wrapper.hpp"
 #include "tcp_socket_wrapper.hpp"
 #include "tcp_server_task.hpp"
+#include "tcp_client_task.hpp"
 
 typedef std::function<void()> P0CallBack;
 typedef std::function<void(int)> P1IntCallBack;
