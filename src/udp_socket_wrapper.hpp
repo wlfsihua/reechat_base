@@ -41,7 +41,7 @@ namespace reechat {
         //server mode
         bool BeginListen(const char* local_ip, uint16_t port);
         
-        bool SendData(const void* data, size_t len, const struct sockaddr* target_addr);
+        int SendData(const void* data, size_t len, const struct sockaddr* target_addr);
         
         bool CloseSocket();
         

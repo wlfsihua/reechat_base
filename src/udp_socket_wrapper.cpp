@@ -88,7 +88,7 @@ namespace reechat {
         return true;
     }
     
-    bool UdpSocketWrapper::SendData(const void* data, size_t len, const struct sockaddr* target_addr)
+    int UdpSocketWrapper::SendData(const void* data, size_t len, const struct sockaddr* target_addr)
     {
         if (socketfd_ == 0) {
             return false;
@@ -98,7 +98,7 @@ namespace reechat {
 #else
 		ssize_t ret = ::sendto(socketfd_, data, len, 0, target_addr, sizeof(struct sockaddr));
 #endif
-        return ret == -1 ? false : true;
+        return ret;
     }
     
     bool UdpSocketWrapper::CloseSocket()

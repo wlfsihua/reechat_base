@@ -67,6 +67,12 @@
 		8D2545742275FFF2006CABDF /* udp_kcp_tranport.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8D25456E2275FFF2006CABDF /* udp_kcp_tranport.hpp */; };
 		8D2545752275FFF2006CABDF /* udp_kcp_tranport.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8D25456E2275FFF2006CABDF /* udp_kcp_tranport.hpp */; };
 		8D2545762275FFF2006CABDF /* udp_kcp_tranport.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8D25456E2275FFF2006CABDF /* udp_kcp_tranport.hpp */; };
+		8D25458D22773876006CABDF /* udp_kcp_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D25458122773841006CABDF /* udp_kcp_test.cpp */; };
+		8D25458E2277D12B006CABDF /* libreechat_base_osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43700F63209B1B3F0011F574 /* libreechat_base_osx.a */; };
+		8D25458F2277D12F006CABDF /* libevent2_osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D25452B22733F03006CABDF /* libevent2_osx.a */; };
+		8D2545902277D134006CABDF /* librtc_base_osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D25452022733E53006CABDF /* librtc_base_osx.a */; };
+		8D2545912277D140006CABDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D25453122733F11006CABDF /* Foundation.framework */; };
+		8D2545AE2277D85A006CABDF /* libkcp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2545AD2277D834006CABDF /* libkcp.a */; };
 		8DCE05DF226F4C9100A14179 /* rtc_log_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE05DD226F4C9100A14179 /* rtc_log_wrapper.cpp */; };
 		8DCE05E0226F4C9100A14179 /* rtc_log_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE05DD226F4C9100A14179 /* rtc_log_wrapper.cpp */; };
 		8DCE05E1226F4C9100A14179 /* rtc_log_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE05DD226F4C9100A14179 /* rtc_log_wrapper.cpp */; };
@@ -148,10 +154,26 @@
 			remoteGlobalIDString = 4389DBC120EF972500EA26C8;
 			remoteInfo = event2_ios;
 		};
+		8D2545AC2277D834006CABDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D2545A82277D834006CABDF /* kcp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D25459B2277D7E3006CABDF;
+			remoteInfo = kcp;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8D25454B22741933006CABDF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8D2545842277386C006CABDF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -195,6 +217,9 @@
 		8D2545642275FF20006CABDF /* udp_socket_wrapper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = udp_socket_wrapper.hpp; sourceTree = "<group>"; };
 		8D25456D2275FFF2006CABDF /* udp_kcp_tranport.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = udp_kcp_tranport.cpp; sourceTree = "<group>"; };
 		8D25456E2275FFF2006CABDF /* udp_kcp_tranport.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = udp_kcp_tranport.hpp; sourceTree = "<group>"; };
+		8D25458122773841006CABDF /* udp_kcp_test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = udp_kcp_test.cpp; sourceTree = "<group>"; };
+		8D2545862277386C006CABDF /* udp_kcp_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = udp_kcp_test; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D2545A82277D834006CABDF /* kcp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = kcp.xcodeproj; path = src/third_party/kcp/kcp.xcodeproj; sourceTree = "<group>"; };
 		8DCE05DD226F4C9100A14179 /* rtc_log_wrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtc_log_wrapper.cpp; sourceTree = "<group>"; };
 		8DCE05DE226F4C9100A14179 /* rtc_log_wrapper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rtc_log_wrapper.hpp; sourceTree = "<group>"; };
 		8DCE05E7226F4D4B00A14179 /* tcp_socket_wrapper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tcp_socket_wrapper.hpp; sourceTree = "<group>"; };
@@ -250,6 +275,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8D2545832277386C006CABDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2545AE2277D85A006CABDF /* libkcp.a in Frameworks */,
+				8D2545912277D140006CABDF /* Foundation.framework in Frameworks */,
+				8D2545902277D134006CABDF /* librtc_base_osx.a in Frameworks */,
+				8D25458F2277D12F006CABDF /* libevent2_osx.a in Frameworks */,
+				8D25458E2277D12B006CABDF /* libreechat_base_osx.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DCE06212270963200A14179 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -268,6 +305,7 @@
 			isa = PBXGroup;
 			children = (
 				8D254539227416D2006CABDF /* README.md */,
+				8D2545A82277D834006CABDF /* kcp.xcodeproj */,
 				8D25452522733F03006CABDF /* event2.xcodeproj */,
 				8D25451A22733E53006CABDF /* rtc_base.xcodeproj */,
 				8D00EEA8226D74A0008F5AA0 /* src */,
@@ -285,6 +323,7 @@
 				436167C3213E38DE005BF2C1 /* libreechat_base_osx_nosql.a */,
 				8DCE06242270963200A14179 /* tcp_server_test */,
 				8D25454D22741933006CABDF /* tcp_client_test */,
+				8D2545862277386C006CABDF /* udp_kcp_test */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -339,11 +378,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		8D2545A92277D834006CABDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D2545AD2277D834006CABDF /* libkcp.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		8DCE0610227090B700A14179 /* test */ = {
 			isa = PBXGroup;
 			children = (
 				8D25454822741910006CABDF /* tcp_client_test.cpp */,
 				8DCE0611227090E400A14179 /* tcp_server_test.cpp */,
+				8D25458122773841006CABDF /* udp_kcp_test.cpp */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -531,6 +579,23 @@
 			productReference = 8D25454D22741933006CABDF /* tcp_client_test */;
 			productType = "com.apple.product-type.tool";
 		};
+		8D2545852277386C006CABDF /* udp_kcp_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D25458A2277386C006CABDF /* Build configuration list for PBXNativeTarget "udp_kcp_test" */;
+			buildPhases = (
+				8D2545822277386C006CABDF /* Sources */,
+				8D2545832277386C006CABDF /* Frameworks */,
+				8D2545842277386C006CABDF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = udp_kcp_test;
+			productName = udp_kcp_test;
+			productReference = 8D2545862277386C006CABDF /* udp_kcp_test */;
+			productType = "com.apple.product-type.tool";
+		};
 		8DCE06232270963200A14179 /* tcp_server_test */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DCE06282270963300A14179 /* Build configuration list for PBXNativeTarget "tcp_server_test" */;
@@ -554,6 +619,7 @@
 		43700F5B209B1B3F0011F574 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Original;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = ztgame;
 				TargetAttributes = {
@@ -572,6 +638,10 @@
 						DevelopmentTeam = 5T4SKG3CUR;
 					};
 					8D25454C22741933006CABDF = {
+						CreatedOnToolsVersion = 10.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					8D2545852277386C006CABDF = {
 						CreatedOnToolsVersion = 10.2.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -598,6 +668,10 @@
 					ProjectRef = 8D25452522733F03006CABDF /* event2.xcodeproj */;
 				},
 				{
+					ProductGroup = 8D2545A92277D834006CABDF /* Products */;
+					ProjectRef = 8D2545A82277D834006CABDF /* kcp.xcodeproj */;
+				},
+				{
 					ProductGroup = 8D25451B22733E53006CABDF /* Products */;
 					ProjectRef = 8D25451A22733E53006CABDF /* rtc_base.xcodeproj */;
 				},
@@ -610,6 +684,7 @@
 				43616781213E38DE005BF2C1 /* reechat_base_osx_nosql */,
 				8DCE06232270963200A14179 /* tcp_server_test */,
 				8D25454C22741933006CABDF /* tcp_client_test */,
+				8D2545852277386C006CABDF /* udp_kcp_test */,
 			);
 		};
 /* End PBXProject section */
@@ -641,6 +716,13 @@
 			fileType = archive.ar;
 			path = libevent2_ios.a;
 			remoteRef = 8D25452C22733F03006CABDF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8D2545AD2277D834006CABDF /* libkcp.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libkcp.a;
+			remoteRef = 8D2545AC2277D834006CABDF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -723,6 +805,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D25455422741940006CABDF /* tcp_client_test.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D2545822277386C006CABDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D25458D22773876006CABDF /* udp_kcp_test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1095,6 +1185,55 @@
 			};
 			name = Release;
 		};
+		8D25458B2277386C006CABDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					WEBRTC_POSIX,
+					WEBRTC_MAC,
+					ASIO_STANDALONE,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/src/third_party",
+					"$(PROJECT_DIR)/src/third_party/libevent2/include",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D25458C2277386C006CABDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					WEBRTC_POSIX,
+					WEBRTC_MAC,
+					ASIO_STANDALONE,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/src/third_party",
+					"$(PROJECT_DIR)/src/third_party/libevent2/include",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8DCE06292270963300A14179 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1197,6 +1336,15 @@
 			buildConfigurations = (
 				8D25455222741933006CABDF /* Debug */,
 				8D25455322741933006CABDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D25458A2277386C006CABDF /* Build configuration list for PBXNativeTarget "udp_kcp_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D25458B2277386C006CABDF /* Debug */,
+				8D25458C2277386C006CABDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
