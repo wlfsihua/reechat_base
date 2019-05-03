@@ -22,24 +22,29 @@ namespace reechat {
         
     }
     
-    bool UdpKcpTransport::Init()
+    bool UdpKcpTransport::BeginListen(const char *listen_ip, uint16_t listen_port, uint32_t transport_id)
     {
-        udp_socket_wrapper_->BeginListen("0.0.0.0", 10000);
+        udp_socket_wrapper_->BeginListen(listen_ip, listen_port);
+        udp_socket_wrapper_->SignalReadPacket = std::bind(&UdpKcpTransport::OndataReceived, this, _1, _2, _3);
         
         auto share_this_helper_ = new CShareThisHelper<UdpKcpTransport>(shared_from_this());
-        ikcp_context_ = ikcp_create(11223344, share_this_helper_);
+        ikcp_context_ = ikcp_create(transport_id, share_this_helper_);
+        ikcp_nodelay(ikcp_context_, 0, 40, 0, 0);
         
         ikcp_setoutput(ikcp_context_, [](const char* data, int len, ikcpcb*, void* ptr)->int{
             //send data to network layer
             auto transport = static_cast<CShareThisHelper<UdpKcpTransport>*>(ptr);
             
-            struct sockaddr_in dest;
-            dest.sin_family = AF_INET;
-            dest.sin_port = htons(8000);
-            dest.sin_addr.s_addr = inet_addr("127.0.0.1");
-            return transport->socket_wrapper->udp_socket_wrapper_->SendData(data, len, (struct sockaddr*)&dest);
+            return transport->socket_wrapper->udp_socket_wrapper_->SendData(data, len, &transport->socket_wrapper->dest_addr_);
         });
         return true;
+    }
+    
+    void UdpKcpTransport::SetSendDestination(const char* dest_ip, uint16_t dest_port)
+    {
+        (*(struct sockaddr_in*)&dest_addr_).sin_family = AF_INET;
+        (*(struct sockaddr_in*)&dest_addr_).sin_port = htons(dest_port);
+        (*(struct sockaddr_in*)&dest_addr_).sin_addr.s_addr = inet_addr(dest_ip);
     }
     
     bool UdpKcpTransport::SendData(const char* data, size_t len)
@@ -58,18 +63,20 @@ namespace reechat {
         }
         ikcp_update(ikcp_context_, current_time);
         
-        char buffer[2048] = {0};
+        char buffer[1500] = {0};
         while (true) {
-            int len = ikcp_recv(ikcp_context_, buffer, 2048);
+            int len = ikcp_recv(ikcp_context_, buffer, 1500);
             if (len < 0) {
                 break;
             }
+
+//            RTCHAT_LOG(LS_INFO) << "recv data len:" << len;
             //Post message to appication layer
             //Todo...
         }
     }
     
-    void UdpKcpTransport::OndataReceived(const char* data, size_t len)
+    void UdpKcpTransport::OndataReceived(const char* data, size_t len, const struct sockaddr* src_dest)
     {
         ikcp_input(ikcp_context_, data, len);
     }
